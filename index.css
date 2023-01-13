@@ -1,0 +1,77 @@
+/* *********************Layout*********************** */
+html, body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    height: 550px;
+    width: 550px;
+    background: #FFFDFE;
+}
+header{
+   height: 90px; 
+   border: 1px solid #D1D5DB;
+   position: relative;
+}
+input{
+   width: 61px;
+   height: 42px;
+   border: 0.5px solid #313131;
+   left: 14px;
+   top: 23px;
+}
+input, select, .get-btn{
+    position: absolute;
+}
+select{
+    height: 42px;
+    width: 312px;
+    left: 87px;
+    top: 23px;
+    font-family: inter;
+    border-radius: 6px;
+    padding-left: 13px;
+}
+select, .get-btn{
+    font-family: inter;
+    border: 1px solid #D1D5DB;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(110px, 1fr));
+}
+.color-columns{
+    width: 110px;
+    height:414px;
+}
+.codes{
+    display:flex;
+}
+header, .get-btn, .codes{
+    background: #FFFFFF;
+}
+     
+/* *****************Buttons******************* */
+.get-btn{
+    height: 42px;
+    width: 123px;
+    left: 412px;
+    top: 23px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Typography */
+p {
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 11px 28px;
+}
